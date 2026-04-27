@@ -416,7 +416,7 @@
         "uuid": "3b020b28-2b1a-4640-a139-d2fa6eea1e27"
       }
     ],
-    "used_designators": "R1,#PWR1-35,U1-17,U20",
+    "used_designators": "R1,#PWR1-40,U1-17,U20-28",
     "variants": []
   },
   "sheets": [
@@ -427,6 +427,10 @@
     [
       "e81c3349-8afa-479c-8f16-b7cc73f821f7",
       "Part 1"
+    ],
+    [
+      "2561675d-1261-4d1d-8c7d-b25c74f95240",
+      "Alu part"
     ]
   ],
   "text_variables": {},

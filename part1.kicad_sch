@@ -6295,10 +6295,6 @@
 		(uuid "b8ad9ddd-7807-4dea-b851-a14717132c2a")
 	)
 	(no_connect
-		(at 176.53 153.67)
-		(uuid "baff90e1-0e0d-4b93-90bf-260c0737e5db")
-	)
-	(no_connect
 		(at 166.37 153.67)
 		(uuid "bb21e24a-6456-4fc5-bf50-3363883179bd")
 	)
@@ -7617,6 +7613,16 @@
 			(type default)
 		)
 		(uuid "197ee43f-1cd5-4211-897f-2abfb4b093b6")
+	)
+	(wire
+		(pts
+			(xy 176.53 156.21) (xy 176.53 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19d738fb-f80f-4fea-84ec-664e8d54149f")
 	)
 	(wire
 		(pts
@@ -9407,6 +9413,16 @@
 			(type default)
 		)
 		(uuid "83207039-39b0-4cec-a79e-f6558eed903f")
+	)
+	(wire
+		(pts
+			(xy 200.66 156.21) (xy 176.53 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8445ea61-80f7-48ce-ba37-80840fd643ef")
 	)
 	(wire
 		(pts
@@ -12842,6 +12858,30 @@
 			)
 		)
 	)
+	(global_label "~{uc_cc}"
+		(shape input)
+		(at 200.66 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21f34c22-8cc2-4b9c-88c6-88f37ccde071")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.0276 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "alu_a3"
 		(shape output)
 		(at 306.07 57.15 0)
@@ -16220,7 +16260,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7ba2df50-8a7b-40f9-bde4-ffd059cf7be7")
 		(property "Reference" "#PWR016"
 			(at 194.31 158.75 0)
@@ -16234,7 +16273,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 157.48 0)
+			(at 193.802 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

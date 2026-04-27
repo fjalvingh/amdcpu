@@ -11,6 +11,52 @@
 	)
 	(lib_symbols)
 	(sheet
+		(at 80.01 29.21)
+		(size 24.13 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2561675d-1261-4d1d-8c7d-b25c74f95240")
+		(property "Sheetname" "Alu part"
+			(at 80.01 28.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Alu.kicad_sch"
+			(at 80.01 42.4946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "amdcpu-orig"
+				(path "/3b020b28-2b1a-4640-a139-d2fa6eea1e27"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 33.02 29.21)
 		(size 22.86 12.7)
 		(exclude_from_sim no)
