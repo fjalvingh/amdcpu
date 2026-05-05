@@ -57,6 +57,52 @@
 		)
 	)
 	(sheet
+		(at 128.27 29.21)
+		(size 20.32 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "76b0ea5d-7464-46d1-aa50-06852343997d")
+		(property "Sheetname" "businterface"
+			(at 128.27 28.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "businterface.kicad_sch"
+			(at 128.27 42.4946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "amdcpu-orig"
+				(path "/3b020b28-2b1a-4640-a139-d2fa6eea1e27"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 33.02 29.21)
 		(size 22.86 12.7)
 		(exclude_from_sim no)
