@@ -648,7 +648,7 @@
         "uuid": "3b020b28-2b1a-4640-a139-d2fa6eea1e27"
       }
     ],
-    "used_designators": "U41,#FLG1-2,#PWR102,#PWR105-111,J1",
+    "used_designators": "#PWR92-95,#PWR112-139,U41-53",
     "variants": []
   },
   "sheets": [
@@ -667,6 +667,10 @@
     [
       "76b0ea5d-7464-46d1-aa50-06852343997d",
       "businterface"
+    ],
+    [
+      "06fb4e0b-986e-4ac0-bb1e-5d3f35c74318",
+      "UC store"
     ]
   ],
   "text_variables": {},

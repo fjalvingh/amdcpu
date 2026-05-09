@@ -11,6 +11,52 @@
 	)
 	(lib_symbols)
 	(sheet
+		(at 167.64 29.21)
+		(size 21.59 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "06fb4e0b-986e-4ac0-bb1e-5d3f35c74318")
+		(property "Sheetname" "UC store"
+			(at 167.64 28.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ucstore.kicad_sch"
+			(at 167.64 42.4946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "amdcpu-orig"
+				(path "/3b020b28-2b1a-4640-a139-d2fa6eea1e27"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 80.01 29.21)
 		(size 24.13 12.7)
 		(exclude_from_sim no)
