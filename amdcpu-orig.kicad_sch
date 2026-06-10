@@ -10,6 +10,29 @@
 		(rev "0.1")
 	)
 	(lib_symbols)
+	(text "Pipeline Register Bit Descriptions (Mick & Brick, \"Bit-Slice Microprocessor Design\", Ch.III)"
+		(exclude_from_sim no)
+		(at 25 80 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "38b373dd-8a5f-4466-be4c-1f22337863a1")
+	)
+	(text "PL0-PL8:   9 instruction bits (I0-I8) of the Am2903 superslices\nPL9,10,11: IEN, EA, OEB control inputs of Am2903 superslices (PL11 also drives data-in registers U20, U21)\nPL12-PL14: SIO source select for shift-down of Am2903 (µ12-µ14) - see shift table\nPL15-PL17: QIO source select for shift-down/up of Am2903 (µ15-µ17) - see shift table\nPL18:      When LOW, enables MAR clock input (clocks Y outputs of Am2903 into MAR)\nPL19:      When LOW, enables MAR output onto the Memory Address Bus\nPL20:      When LOW, enables data output register clock (clocks Y outputs into data-out registers U31, U32)\nPL21:      When LOW, enables data output registers onto the Data Bus\nPL22:      When LOW, enables data-in register clock (clocks Data Bus into data-in registers U20, U21)\nPL23:      CI input of the Am2910 microprogram sequencer\nPL24-PL27: 4-bit field: A-address or B-address of Am2903 superslices\nPL28-PL31: 4-bit field: A-address of Am2903 or DA inputs of Am2921 (µ16, µ17)\nPL32,PL33: Am2903 A-address source select (see table: LL=DB bits 0-3, LH=µ bits 28-31, HL=DB bits 4-7, HH=µ bits 24-27)\nPL34:      Am2903 B-address source select (L=DB bits 4-7, H=µ bits 24-27)\nPL35:      Cn input of least significant Am2903 via 74S157 mux (µ35)\nPL36,PL37: Status register input signals: Next Carry and Next Zero/Sign/Overflow (see table)\nPL38:      Selects carry flip-flop or PL35 bit for carry in\nPL39:      When LOW, enables status register output to data bus bits 0-3\nPL40:      Controls output polarity of the one-of-sixteen bit select logic\nPL41:      When LOW, enables Instruction Register (U1,U2,U3) clock\nPL42:      Output signal: when HIGH, signals main memory that a read is requested\nPL43:      Output signal: when HIGH, signals main memory that a write is requested\nPL44:      Selects source for one-of-sixteen bit decoders (U16, U17):\n           LOW = Am2919 register (U12) containing µ bits 28-31\n           HIGH = Am2919 register (U3) containing DB bits 0-3\nPL45:      Am2903 DA port source select (LOW=one-of-sixteen decoder output; HIGH=Am27771 PROM output via U18,U19)\nPL46,PL47: RLD and CCEN control inputs of the Am2910 sequencer\nPL48-PL50: Condition code select for Am2910 (see table: LLL=Carry, LLH=Sign, LHL=Zero, LHH=Overflow)\nPL51:      Condition code polarity control (HIGH=non-inverted, LOW=complemented)\nPL52-PL55: I inputs of the Am2910 sequencer\nPL56-PL67: 12-bit next microprogram address field (bits 56-60 also serve as Am27771 PROM address field)"
+		(exclude_from_sim no)
+		(at 24.892 151.13 0)
+		(effects
+			(font
+				(size 1.4 1.4)
+			)
+			(justify left bottom)
+		)
+		(uuid "56551fd6-7180-4370-8341-542c1863b2de")
+	)
 	(sheet
 		(at 167.64 29.21)
 		(size 21.59 12.7)
